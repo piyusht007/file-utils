@@ -1,7 +1,7 @@
-package com.piyush.org.factory;
+package com.piyush.org.third.party.lib.factory;
 
-import com.piyush.org.Writer;
-import com.piyush.org.xml.XMLWriter;
+import com.piyush.org.third.party.lib.Writer;
+import com.piyush.org.third.party.lib.xml.XMLWriter;
 
 /**
  * Factory to get {@Writer writer}(s)

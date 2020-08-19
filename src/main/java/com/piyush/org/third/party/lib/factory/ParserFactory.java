@@ -1,7 +1,7 @@
-package com.piyush.org.factory;
+package com.piyush.org.third.party.lib.factory;
 
-import com.piyush.org.Parser;
-import com.piyush.org.xml.XMLParser;
+import com.piyush.org.third.party.lib.Parser;
+import com.piyush.org.third.party.lib.xml.XMLParser;
 
 /**
  * Factory to get {@Parser parser}(s)
