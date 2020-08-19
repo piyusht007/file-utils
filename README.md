@@ -18,7 +18,7 @@ final String file = <file_to_write>;
 final String fileFormat = "xml";
 final Writer writer = WriterFactory.getWriter(fileFormat);
 
-writer.write(<Object_To_Write>, <Object_Type_Write>, file, <root_element_name>);
+writer.write(<Object_To_Write>, <Object_Type_To_Write>, file, <root_element_name>);
 ```
 ### Note:
 Refer to the `Application` class for example usage. 
@@ -26,8 +26,12 @@ Refer to the `Application` class for example usage.
 ### Running from command line:
 * Build the jar using: `mvn clean install`
 * Run the jar as follows: 
-```shell script
-Usage: java -cp target\file-utils-0.0.1-SNAPSHOT.jar com.piyush.org.consumer.Application "<xml_file_location>" "<file_format>"
-
-Example: java -cp target\file-utils-0.0.1-SNAPSHOT.jar com.piyush.org.consumer.Application "C:\temp\employees.xml" "xml"
-```
+    * **Usage**:
+    ```shell script
+     java -cp target\file-utils-0.0.1-SNAPSHOT.jar com.piyush.org.consumer.Application "<xml_file_location>" "<file_format>"
+    ```
+    * **Example**:
+  
+    ```shell script
+    java -cp target\file-utils-0.0.1-SNAPSHOT.jar com.piyush.org.consumer.Application "C:\temp\employees.xml" "xml"
+    ```
